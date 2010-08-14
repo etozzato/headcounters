@@ -6,7 +6,18 @@ We strive to create flexible, easy-to-implement, and highly useful tools for web
 
 May your visitors and fortunes multiply!
 
+INSTALLATION
+
+_ ssh into your server and clone the plugin (recommended);
+
+ssh mywebiste.com
+cd ./mywebiste.com/wp/wp-content/plugins/
+git clone git://github.com/etozzato/headcounters.git
+
+_ download the archive at http://github.com/etozzato/headcounters/archives/master and upload it to your plugins folder.
+
 CHANGELOG
+
 == 0.0.1 == 
 Simple port from headcounters.com/digits.js
 == 0.0.2 == 
