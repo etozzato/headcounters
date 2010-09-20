@@ -23,6 +23,12 @@ function headcounters(){
     echo "
       <script type=\"text/javascript\" charset=\"utf-8\">
         var footer = document.getElementById('footer');
+        if(footer == null){
+          var footer = document.getElementById('wp-footer');
+        }
+        if(footer == null){
+          var footer = document.body
+        }
         if (typeof(headcounters_content)!='undefined' && footer != null){
           footer.innerHTML += headcounters_content;
         }
