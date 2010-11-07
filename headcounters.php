@@ -17,8 +17,8 @@ function headcounters_css(){
 echo  "<style>
   @font-face {
     font-family: 'HeadCounters';
-    src: url('./wp-content/plugins/headcounters_beta/fonts/{$font_face}-webfont.eot');
-    src: local('☺'), url('./wp-content/plugins/headcounters_beta/fonts/{$font_face}-webfont.woff') format('woff'), url('./wp-content/plugins/headcounters_beta/fonts/{$font_face}-webfont.ttf') format('truetype'), url('./wp-content/plugins/headcounters_beta/fonts/{$font_face}-webfont.svg#webfontWcAYDrv2') format('svg');
+    src: url('./wp-content/plugins/headcounters/fonts/{$font_face}-webfont.eot');
+    src: local('☺'), url('./wp-content/plugins/headcounters/fonts/{$font_face}-webfont.woff') format('woff'), url('./wp-content/plugins/headcounters/fonts/{$font_face}-webfont.ttf') format('truetype'), url('./wp-content/plugins/headcounters/fonts/{$font_face}-webfont.svg#webfontWcAYDrv2') format('svg');
     font-weight: normal;
     font-style: normal;
   }
@@ -90,7 +90,7 @@ function headcounters_admin_panel(){
       <strong><u>Main Configuration</u></strong><br />
       <br /><strong>HeadCounter Type:</strong><br />
       <input type="radio" name="is_txt" value="false" <? if ($is_txt == 'false') echo 'checked' ?>>&nbsp;HC Classic&trade; Counter&nbsp;
-      <img src='../wp-content/plugins/headcounters_beta/images/headcounters_example.png'>
+      <img src='../wp-content/plugins/headcounters/images/headcounters_example.png'>
       <br>
       <input type="radio" name="is_txt" value="true" <? if ($is_txt == 'true') echo 'checked' ?>> <em>Text-Based</em> Counter (completely configurable!)
             
