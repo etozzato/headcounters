@@ -154,7 +154,6 @@ function headcounters_admin_panel(){
   </div>
 
 <div class="wrap">
-  <h2>HeadCounters Configuration</h2>
   <table border="0" cellspacing="5" cellpadding="5">
     <tr>
       <td></td>
@@ -172,7 +171,7 @@ function headcounters_admin_panel(){
   <p>
   We strive to create flexible, easy-to-implement, and highly useful tools for web people. Our main focus is monetization; we want to help you get the best possible return on your website authoring efforts. To learn more, visit <a href='http://www.searchintegrate.com' target='_new'>Search Integrate</a>
   </p>
-  May your visitors and fortunes multiply!
+  <p>May your visitors and fortunes multiply!</p>
 </div>
 
 <?
