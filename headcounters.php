@@ -29,7 +29,7 @@ echo  "<style>
     padding:{$padding};
     margin:{$margin};
     border:{$border} solid;
-    width:{$width}
+    width:{$width};
     text-align:{$align};
     display:block;
   }
